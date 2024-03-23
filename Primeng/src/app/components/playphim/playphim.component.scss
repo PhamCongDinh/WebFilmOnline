@@ -1,0 +1,21 @@
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* Kích thước theo chiều rộng của container cha */
+    max-width: 780px;
+    /* Giới hạn chiều rộng tối đa */
+    margin: 0 auto;
+    /* Canh giữa theo chiều ngang */
+    padding-top: 400px;
+    /* 16:9 aspect ratio */
+    text-align: center;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 780px;
+    height: 400px;
+}

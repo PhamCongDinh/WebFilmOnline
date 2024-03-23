@@ -1,0 +1,27 @@
+<p-card [style]="{height: '278px',margin: '0 50px'}">
+    <ng-template pTemplate="header">
+        <div style="display:flex" *ngIf="phimdata">
+            <img style="width: auto; height: 278px;" alt="Card" src="/assets/images/{{phimdata.anhPhim}}" />
+            <div style="margin-left: 10px;">
+                <h3>{{phimdata.tenPhim}}</h3>
+                <h5>Thời lượng: {{phimdata.thoiLuongPhim}}</h5>
+                <!-- <h4>Thể loại : {{phimdata.}}</h4> -->
+            </div>
+        </div>
+    </ng-template>
+    <div>
+        <h3>Full HD</h3>
+        <div>
+            <ul>
+                <li *ngFor="let item of tapphimdata" [routerLink]="['/playphim',item?.tap?.id]">{{ item?.tap?.tapSo
+                    }}
+                </li>
+                <!-- <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li> -->
+            </ul>
+        </div>
+    </div>
+
+</p-card>

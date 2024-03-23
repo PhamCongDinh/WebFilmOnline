@@ -1,0 +1,6 @@
+<div class="video-container">
+    <iframe [src]="urlPhimSafe"></iframe>
+    <div *ngIf="playphimdata" style="text-align: left;">
+        <h3>Phim : {{playphimdata.tenPhim}} - tập số : {{playphimdata?.tap?.tapSo}}</h3>
+    </div>
+</div>

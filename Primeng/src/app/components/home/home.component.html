@@ -1,0 +1,41 @@
+<p-toolbar>
+    <div class="p-toolbar-group-start">
+        <button pButton icon="pi pi-plus" class="mr-2"></button>
+        <button pButton icon="pi pi-print" class="mr-2"></button>
+        <button pButton icon="pi pi-upload"></button>
+    </div>
+    <div class="p-toolbar-group-center">
+        <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input pInputText placeholder="Search" />
+        </span>
+    </div>
+
+</p-toolbar>
+<!--menu thể loại-->
+<div>
+    <p-menubar [model]="items"></p-menubar>
+</div>
+<!--Danh sách phim-->
+<div style="text-align: center;">
+    <div *ngFor="let film of films" style="display:inline-block;">
+        <p-card [style]="{ height: '278px',position: 'relative', margin: '5px' }" [routerLink]="['/phim',film.id]">
+
+
+            <ng-template pTemplate="header">
+                <div class="img">
+                    <img class="img" style="width: auto; height:278px" alt="Card"
+                        src="/assets/images/{{film.anhPhim}}" />
+                    <p>{{film.soLuongTap}}/{{film.tongSoTap}}</p>
+                    <h4>{{film.tenPhim}}</h4>
+                </div>
+
+            </ng-template>
+
+
+        </p-card>
+    </div>
+    <div>
+        <p-paginator [rows]="pageSize" [totalRecords]="totalCount" (onPageChange)="onPageChange($event)"> </p-paginator>
+    </div>
+</div>

@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\fpt\\webxemphimcartoon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\controllers\\phimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\phimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\controllers\\homescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\homescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\models\\webphimonlinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\webphimonlinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\models\\tapphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\tapphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhimsController.cs",
+              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T02:06:22.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Phim.cs",
+              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Phim.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\Phim.cs",
+              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Phim.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\Phim.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA/wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:21:55.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tapphim.cs",
+              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Tapphim.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\Tapphim.cs",
+              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Tapphim.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\Tapphim.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA/wB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:21:46.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebphimonlineContext.cs",
+              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwBEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:03:00.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomesController.cs",
+              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\HomesController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\HomesController.cs",
+              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\HomesController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\HomesController.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAQwD0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:24:12.878Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
