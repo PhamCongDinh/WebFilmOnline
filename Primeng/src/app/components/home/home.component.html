@@ -1,3 +1,30 @@
+<!-- <div id="fb-root"></div>
+<div id="fb-customer-chat" class="fb-customerchat"></div>
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("780840220123234", "104828195924958"); // Thay YOUR_PAGE_ID bằng ID của trang Facebook của bạn
+    chatbox.setAttribute("attribution", "biz_inbox");
+</script> -->
+
+<!-- Đoạn mã JavaScript để tải SDK của Facebook -->
+<!-- <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v13.0'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script> -->
+
+
 <p-toolbar>
     <div class="p-toolbar-group-start">
         <button pButton icon="pi pi-plus" class="mr-2"></button>
@@ -9,6 +36,9 @@
             <i class="pi pi-search"></i>
             <input pInputText placeholder="Search" />
         </span>
+    </div>
+    <div>
+        <a [routerLink]="['/lichsuxemphim']">Lịch sử xem phim</a>
     </div>
 
 </p-toolbar>

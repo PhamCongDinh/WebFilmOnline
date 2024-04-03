@@ -1,0 +1,33 @@
+<h2>Thêm phim mới</h2>
+
+<form id="myForm">
+    <label for="Ten_Phim">Tên Phim:</label>
+    <input type="text" id="TenPhim" name="TenPhim" required>
+
+    <label for="Anh_Phim">Ảnh Phim:</label>
+    <input type="file" #fileinput id="AnhPhim" name="AnhPhim" (change)="displayImage(fileinput)" required>
+    <div id="imageDisplay"></div>
+
+    <label for="NgayPhatHanh">Ngày Phát Hành:</label>
+    <input type="datetime-local" id="NgayPhatHanh" name="NgayPhatHanh" required>
+
+    <label for="thoiluong">Thời Lượng:</label>
+    <input type="text" id="ThoiLuongPhim" name="ThoiLuongPhim" required>
+
+    <label for="MoTa">Giới Thiệu:</label>
+    <input type="text" id="MoTa" name="MoTa" required>
+
+    <label for="HangPhim">Hãng Phim:</label>
+    <!-- <input type="text" id="HangPhim" name="HangPhim" required> -->
+    <select id="HangPhim" name="TenHP" required>
+        <option value="Mỹ">Mỹ</option>
+        <!-- Tùy chọn sẽ được thêm vào đây thông qua JavaScript -->
+    </select>
+    <label for="LoaiPhim">Thể Loại:</label>
+    <!-- <input type="text" id="LoaiPhim" name="LoaiPhim" required> -->
+    <select id="LoaiPhim" name="TenLP" required>
+        <option value="Tu Tiên">Tu Tiên</option>
+        <!-- Tùy chọn sẽ được thêm vào đây thông qua JavaScript -->
+    </select>
+    <button type="button" (click)="newphim()">Thêm phim</button>
+</form>

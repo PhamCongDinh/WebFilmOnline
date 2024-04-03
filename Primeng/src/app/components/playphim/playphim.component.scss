@@ -9,7 +9,6 @@
     /* Canh giữa theo chiều ngang */
     padding-top: 400px;
     /* 16:9 aspect ratio */
-    text-align: center;
 }
 
 .video-container iframe {
@@ -18,4 +17,8 @@
     left: 0;
     width: 780px;
     height: 400px;
+}
+
+.dg i {
+    margin: 5px;
 }

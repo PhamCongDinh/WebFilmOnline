@@ -37,4 +37,13 @@ export class PhimComponent implements OnInit {
       }
     )
   }
+  addlsxem() {
+    const data = {
+      "idTapPhim": 4,
+      "idTk": 1
+    }
+
+
+
+  }
 }

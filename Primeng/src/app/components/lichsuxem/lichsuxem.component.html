@@ -1,0 +1,27 @@
+<p>lichsuxem works!</p>
+<div *ngFor="let item of lichsudata">
+    <div class="ig">
+        <p-image src="../../../assets/images/{{item.anhPhim}}" alt="Image" width="70px"></p-image>
+        <div>
+            <a href="http://localhost:4200/phim/{{item.id}}">{{item.tenPhim}}</a><br>
+            <a href="http://localhost:4200/playphim/{{item.idTap}}">Tập số: {{item.tapSo}}</a>
+            <h6>Thời gian: {{item.create_at}}</h6>
+        </div>
+    </div>
+    <!-- <div class="ig">
+        <p-image src="../../../assets/images/DauPhaThuongKhung.jpg" alt="Image" width="70px"></p-image>
+        <div>
+            <a href="">Đấu phá thương khung</a><br>
+            <a href="">tập 2</a>
+            <h6>Thời gian: 2024-03-26 15:36:29</h6>
+        </div>
+    </div>
+    <div class="ig">
+        <p-image src="../../../assets/images/DauPhaThuongKhung.jpg" alt="Image" width="70px"></p-image>
+        <div>
+            <a href="">Đấu phá thương khung</a><br>
+            <a href="">tập 2</a>
+            <h6>Thời gian: 2024-03-26 15:36:29</h6>
+        </div>
+    </div> -->
+</div>

@@ -1,26 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\fpt\\webxemphimcartoon\\",
+  "WorkspaceRootPath": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\controllers\\phimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\controllers\\admin\\homeadminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\admin\\homeadminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\controllers\\phimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\phimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\controllers\\homescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\controllers\\homescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\homescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\models\\webphimonlinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\controllers\\lichsuxemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\lichsuxemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\models\\req\\newtapphims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\req\\newtapphims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\models\\webphimonlinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\webphimonlinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\models\\req\\newphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\req\\newphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\models\\tapphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\models\\tapphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\tapphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|c:\\fpt\\qlwebphim\\webxemphimcartoon\\webxemphimcartoon\\controllers\\danhgiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54388F9B-962D-4D6A-8C6E-37036F7DC5BA}|webxemphimcartoon\\webxemphimcartoon.csproj|solutionrelative:webxemphimcartoon\\controllers\\danhgiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +71,171 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PhimsController.cs",
-              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\PhimsController.cs",
-              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\PhimsController.cs",
-              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\PhimsController.cs",
-              "RelativeToolTip": "webxemphimcartoon\\Controllers\\PhimsController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCgAAAAMAAAA",
+              "Title": "HomeAdminsController.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\Admin\\HomeAdminsController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\Admin\\HomeAdminsController.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\Admin\\HomeAdminsController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\Admin\\HomeAdminsController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAkwJ0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:06:22.973Z",
+              "WhenOpened": "2024-03-29T08:06:45.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomesController.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\HomesController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\HomesController.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\HomesController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\HomesController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:24:12.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhimsController.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\PhimsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T02:06:22.973Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Program.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Program.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Program.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T06:22:50.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Newphim.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\req\\Newphim.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\req\\Newphim.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\req\\Newphim.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\req\\Newphim.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:13:53.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewTapPhims.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\req\\NewTapPhims.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\req\\NewTapPhims.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\req\\NewTapPhims.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\req\\NewTapPhims.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:10:32.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebphimonlineContext.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\WebphimonlineContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAMwAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:03:00.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\CommentsController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T01:54:13.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Phim.cs",
-              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Phim.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Phim.cs",
               "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\Phim.cs",
-              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Phim.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Phim.cs",
               "RelativeToolTip": "webxemphimcartoon\\Models\\Phim.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA/wCEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T07:21:55.637Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "LichSuXemsController.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\LichSuXemsController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\LichSuXemsController.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\LichSuXemsController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\LichSuXemsController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwBoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T09:05:48.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Danhgia.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Danhgia.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\Danhgia.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Danhgia.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\Danhgia.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAxwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T02:44:14.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Tapphim.cs",
-              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Tapphim.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Tapphim.cs",
               "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\Tapphim.cs",
-              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\Tapphim.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Tapphim.cs",
               "RelativeToolTip": "webxemphimcartoon\\Models\\Tapphim.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA/wB8AAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAADwvx0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T07:21:46.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WebphimonlineContext.cs",
-              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\WebphimonlineContext.cs",
-              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\WebphimonlineContext.cs",
-              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Models\\WebphimonlineContext.cs",
-              "RelativeToolTip": "webxemphimcartoon\\Models\\WebphimonlineContext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwBEAAAA8AAAA",
+              "DocumentIndex": 11,
+              "Title": "Taikhoan.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Taikhoan.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Models\\Taikhoan.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Models\\Taikhoan.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Models\\Taikhoan.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T07:03:00.079Z"
+              "WhenOpened": "2024-03-26T02:10:09.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomesController.cs",
-              "DocumentMoniker": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\HomesController.cs",
-              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\HomesController.cs",
-              "ToolTip": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\HomesController.cs",
-              "RelativeToolTip": "webxemphimcartoon\\Controllers\\HomesController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAQwD0AAAAZAAAA",
+              "DocumentIndex": 13,
+              "Title": "DanhGiasController.cs",
+              "DocumentMoniker": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\DanhGiasController.cs",
+              "RelativeDocumentMoniker": "webxemphimcartoon\\Controllers\\DanhGiasController.cs",
+              "ToolTip": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\Controllers\\DanhGiasController.cs",
+              "RelativeToolTip": "webxemphimcartoon\\Controllers\\DanhGiasController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T08:24:12.878Z"
+              "WhenOpened": "2024-03-26T02:42:51.172Z"
             }
           ]
         }

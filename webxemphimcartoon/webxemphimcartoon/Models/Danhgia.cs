@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace webxemphimcartoon.Models;
 
-public partial class Danhgium
+public partial class Danhgia
 {
     public int Id { get; set; }
 
@@ -15,7 +15,7 @@ public partial class Danhgium
 
     public int IdTk { get; set; }
 
-    public virtual Tapphim IdTapPhimNavigation { get; set; } = null!;
+    public virtual Tapphim? IdTapPhimNavigation { get; set; }
 
-    public virtual Taikhoan IdTkNavigation { get; set; } = null!;
+    public virtual Taikhoan? IdTkNavigation { get; set; }
 }

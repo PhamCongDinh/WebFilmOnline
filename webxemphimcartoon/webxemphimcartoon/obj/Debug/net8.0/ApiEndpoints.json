@@ -1,5 +1,183 @@
 [
   {
+    "ContainingType": "webxemphimcartoon.Controllers.CommentsController",
+    "Method": "addcmmt",
+    "RelativePath": "api/Comments/addcmmt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "webxemphimcartoon.Models.Binhluan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.CommentsController",
+    "Method": "getallcmmt",
+    "RelativePath": "api/Comments/getallcmmt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.DanhGiasController",
+    "Method": "danhgia",
+    "RelativePath": "api/DanhGias/danhgia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "webxemphimcartoon.Models.Danhgia",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.Admin.HomeAdminsController",
+    "Method": "getalltp",
+    "RelativePath": "api/HomeAdmins/getalltp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.Admin.HomeAdminsController",
+    "Method": "gettapphimbyid",
+    "RelativePath": "api/HomeAdmins/gettapphimbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.Admin.HomeAdminsController",
+    "Method": "newphim",
+    "RelativePath": "api/HomeAdmins/newphim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenPhim",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnhPhim",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "NgayPhatHanh",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ThoiLuongPhim",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MoTa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenLP",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TenHP",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TongSoTap",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.Admin.HomeAdminsController",
+    "Method": "newtapphim",
+    "RelativePath": "api/HomeAdmins/newtapphim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "webxemphimcartoon.Models.req.NewTapPhims",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.Admin.HomeAdminsController",
+    "Method": "tapphimbyid",
+    "RelativePath": "api/HomeAdmins/tapphimbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.Admin.HomeAdminsController",
+    "Method": "updatetapphim",
+    "RelativePath": "api/HomeAdmins/updatetapphim",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "webxemphimcartoon.Models.Tapphim",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "webxemphimcartoon.Controllers.HomesController",
     "Method": "Getallphim",
     "RelativePath": "api/Homes/Getallphim",
@@ -60,6 +238,38 @@
     "ContainingType": "webxemphimcartoon.Controllers.HomesController",
     "Method": "phimbytheloai",
     "RelativePath": "api/Homes/phimbytheloai",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.LichSuXemsController",
+    "Method": "addlichsu",
+    "RelativePath": "api/LichSuXems/addlichsu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "webxemphimcartoon.Models.Lichsuphim",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webxemphimcartoon.Controllers.LichSuXemsController",
+    "Method": "lichsu",
+    "RelativePath": "api/LichSuXems/lichsu",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
