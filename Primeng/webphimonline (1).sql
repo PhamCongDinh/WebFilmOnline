@@ -266,7 +266,7 @@ CREATE TABLE taikhoan (
 --
 
 INSERT INTO taikhoan (ID, Ten_TK, MatKhau, Email, Loai_TK) VALUES
-(1, 'Phạm Công Định', '18042002', 'pcd@gmail.com', 1),
+(1, N'Phạm Công Định', '18042002', 'pcd@gmail.com', 1),
 (2, 'Nguyễn Việt Anh', '18042002', 'anh@gmail.com', 1),
 (3, 'Trần Huy Hiệp', '18042002', 'hiep@gmail.com', 1),
 (4, 'Vũ Huy Đức', '18042002', 'Duc@gmail.com', 1),

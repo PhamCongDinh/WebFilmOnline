@@ -1,6 +1,21 @@
-CREATE TABLE taikhoan (
+create table lichsuphim(
   ID INT IDENTITY(1,1) PRIMARY KEY,
-  Ten_TK varchar(50) NOT NULL,
+  ID_Tapphim int,
+  ID_TK int,
+  create_at datetime,
+  FOREIGN KEY (ID_TapPhim) REFERENCES tapphim(ID),
+  FOREIGN KEY (ID_TK) REFERENCES taikhoan(ID)
+)
+insert into lichsuphim(ID_Tapphim,ID_TK,create_at) values
+(3,1,GETDATE())
+
+select phim.Ten_Phim, tapphim.TapSo, lichsuphim.create_at from lichsuphim join tapphim on lichsuphim.ID_Tapphim = tapphim.ID
+                          join phim on tapphim.ID_Phim = phim.ID
+                          join taikhoan on lichsuphim.ID_TK =taikhoan.ID
+                          where taikhoan.ID =1
+create TABLE taikhoan (
+  ID INT IDENTITY(1,1) PRIMARY KEY,
+  Ten_TK nvarchar(50) NOT NULL,
   MatKhau varchar(255) NOT NULL,
   Email varchar(30) NOT NULL,
   Loai_TK int NOT NULL
@@ -27,7 +42,7 @@ create table hangphim(
 	  ID INT IDENTITY(1,1) PRIMARY KEY,
 	Ten_LP nvarchar(50) not null
 );
-
+https://www.dailymotion.com/embed/video/x8rujy7?autoplay=1&quality=1080&queue-autoplay-next=false&qu
 
 -- Cấu trúc bảng cho bảng `phim`
 CREATE TABLE phim (
@@ -45,7 +60,7 @@ CREATE TABLE phim (
   FOREIGN KEY (ID_LP) REFERENCES loaiphim(ID)
 );
 
-
+select * from tapphim
 
 
 
@@ -303,3 +318,10 @@ order by tapphim.TapSo
 
 select phim.Ten_Phim, tapphim.* from tapphim join phim on tapphim.ID_Phim = phim.ID
 where phim.Ten_Phim = N'Nghịch Thiên Tà Thần' and tapphim.TapSo=1
+
+
+
+select * from danhgia
+
+
+

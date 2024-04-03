@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj": {}
+    "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj": {}
   },
   "projects": {
-    "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj": {
+    "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj",
+        "projectUniqueName": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj",
         "projectName": "webxemphimcartoon",
-        "projectPath": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj",
+        "projectPath": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\webxemphimcartoon.csproj",
         "packagesPath": "C:\\Users\\Dinh\\.nuget\\packages\\",
-        "outputPath": "C:\\fpt\\webxemphimcartoon\\webxemphimcartoon\\obj\\",
+        "outputPath": "C:\\fpt\\QLwebphim\\webxemphimcartoon\\webxemphimcartoon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

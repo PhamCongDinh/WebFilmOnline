@@ -25,7 +25,8 @@ public partial class Tapphim
 
     public virtual ICollection<Chitiethdn> Chitiethdns { get; set; } = new List<Chitiethdn>();
 
-    public virtual ICollection<Danhgium> Danhgia { get; set; } = new List<Danhgium>();
+    public virtual ICollection<Danhgia> Danhgia { get; set; } = new List<Danhgia>();
+    public virtual ICollection<Lichsuphim> Lichsuphim { get; set; } = new List<Lichsuphim>();
 
     public virtual Phim? IdPhimNavigation { get; set; }
 }

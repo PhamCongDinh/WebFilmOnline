@@ -22,7 +22,7 @@ public partial class WebphimonlineContext : DbContext
 
     public virtual DbSet<Chitiethdn> Chitiethdns { get; set; }
 
-    public virtual DbSet<Danhgium> Danhgia { get; set; }
+    public virtual DbSet<Danhgia> Danhgia { get; set; }
 
     public virtual DbSet<Hangphim> Hangphims { get; set; }
 
@@ -37,6 +37,7 @@ public partial class WebphimonlineContext : DbContext
     public virtual DbSet<Taikhoan> Taikhoans { get; set; }
 
     public virtual DbSet<Tapphim> Tapphims { get; set; }
+    public virtual DbSet<Lichsuphim> Lichsuphims { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -44,6 +45,36 @@ public partial class WebphimonlineContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Lichsuphim>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__lichsuphim");
+
+            entity.ToTable("lichsuphim");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.IdTapPhim).HasColumnName("ID_TapPhim");
+            entity.Property(e => e.IdTk).HasColumnName("ID_TK");
+            
+            entity.Property(e => e.Create_at)
+                .HasDefaultValueSql("(NULL)")
+                .HasColumnType("datetime");
+
+            entity.HasOne(d => d.IdTapPhimNavigation).WithMany(p => p.Lichsuphim)
+                .HasForeignKey(d => d.IdTapPhim)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__binhluan__ID_Tap__6EF57B66");
+
+            entity.HasOne(d => d.IdTkNavigation).WithMany(p => p.Lichsuphim)
+                .HasForeignKey(d => d.IdTk)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__binhluan__ID_TK__6FE99F9F");
+        });
+
+
+
+
+
+
         modelBuilder.Entity<Binhluan>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__binhluan__3214EC275BC9BBC8");
@@ -55,7 +86,7 @@ public partial class WebphimonlineContext : DbContext
             entity.Property(e => e.IdTk).HasColumnName("ID_TK");
             entity.Property(e => e.NoiDung)
                 .HasMaxLength(50)
-                .IsUnicode(false)
+                .IsUnicode(true)
                 .HasDefaultValueSql("(NULL)");
             entity.Property(e => e.ThoiGian)
                 .HasDefaultValueSql("(NULL)")
@@ -121,7 +152,7 @@ public partial class WebphimonlineContext : DbContext
                 .HasConstraintName("FK__chitiethd__ID_Ta__7D439ABD");
         });
 
-        modelBuilder.Entity<Danhgium>(entity =>
+        modelBuilder.Entity<Danhgia>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__danhgia__3214EC27B0908A04");
 
@@ -210,16 +241,16 @@ public partial class WebphimonlineContext : DbContext
                 .HasColumnName("ID_LP");
             entity.Property(e => e.MoTa)
                 .HasMaxLength(10)
-                .IsUnicode(false)
+                .IsUnicode(true)
                 .HasDefaultValueSql("(NULL)");
             entity.Property(e => e.NgayPhatHanh).HasColumnType("datetime");
             entity.Property(e => e.TenPhim)
                 .HasMaxLength(50)
-                .IsUnicode(false)
+                .IsUnicode(true)
                 .HasColumnName("Ten_Phim");
             entity.Property(e => e.ThoiLuongPhim)
                 .HasMaxLength(10)
-                .IsUnicode(false)
+                .IsUnicode(true)
                 .HasDefaultValueSql("(NULL)");
 
             entity.HasOne(d => d.IdHangPhimNavigation).WithMany(p => p.Phims)
@@ -247,7 +278,7 @@ public partial class WebphimonlineContext : DbContext
                 .IsUnicode(false);
             entity.Property(e => e.TenTk)
                 .HasMaxLength(50)
-                .IsUnicode(false)
+                .IsUnicode(true)
                 .HasColumnName("Ten_TK");
         });
 
@@ -265,7 +296,7 @@ public partial class WebphimonlineContext : DbContext
             entity.Property(e => e.ThoiHan).HasColumnType("datetime");
             entity.Property(e => e.ThoiLuong)
                 .HasMaxLength(10)
-                .IsUnicode(false)
+                .IsUnicode(true)
                 .HasDefaultValueSql("(NULL)");
             entity.Property(e => e.UrlPhim)
                 .HasMaxLength(100)

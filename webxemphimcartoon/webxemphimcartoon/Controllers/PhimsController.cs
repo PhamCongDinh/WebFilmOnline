@@ -41,6 +41,7 @@ namespace webxemphimcartoon.Controllers
             return new JsonResult(new { Message = "success", data = lst.ToList() });
 
         }
+        
         //public JsonResult playtapphim([FromQuery] int id_phim, int sotap)
         //{
         //    var lst = from tap in DB.Tapphims

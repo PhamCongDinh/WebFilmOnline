@@ -1,0 +1,29 @@
+<p-table [tableStyle]="{ 'min-width': '50rem' }" [value]="phim">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Tên phim</th>
+            <th>Ảnh phim</th>
+            <th>Tập số</th>
+            <th>Ngày chiếu</th>
+            <th>Thời lượng</th>
+            <th>Link phim</th>
+            <th>khác</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-phim>
+        <tr>
+            <td>{{ phim.tenPhim }}</td>
+            <td><img src="../../../assets/images/{{phim.anhPhim}}" style="width: 80px;" alt=""></td>
+            <td>{{ phim.tp.tapSo }}</td>
+            <td>{{ phim.tp.thoiGianChieu }}</td>
+            <td>{{ phim.tp.thoiLuong }}</td>
+            <td><iframe [src]="sanitizeUrl(phim.tp.urlPhim)" frameborder="0" width="180px" height="80px"></iframe> </td>
+
+            <td>
+                <a [routerLink]="['/edits',phim.tp.id]" style="background-color: aqua;">Sửa</a> |
+                <a style="background-color: red;color:white">Xóa</a>
+
+            </td>
+        </tr>
+    </ng-template>
+</p-table>

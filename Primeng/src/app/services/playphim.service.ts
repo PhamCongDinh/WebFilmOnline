@@ -24,5 +24,10 @@ export class PlayphimService {
     return this.http.get(url, httpOptions).pipe();
   }
 
+  lichsuxem(data: any): Observable<any> {
+    const url = "http://localhost:5056/api/LichSuXems/addlichsu";
+    return this.http.post(url, data).pipe();
+  }
+
 
 }
