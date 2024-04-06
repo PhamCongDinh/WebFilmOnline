@@ -295,3 +295,4 @@ C:\fpt\QLwebphim\webxemphimcartoon\webxemphimcartoon\obj\Debug\net8.0\refint\web
 C:\fpt\QLwebphim\webxemphimcartoon\webxemphimcartoon\obj\Debug\net8.0\webxemphimcartoon.pdb
 C:\fpt\QLwebphim\webxemphimcartoon\webxemphimcartoon\obj\Debug\net8.0\webxemphimcartoon.genruntimeconfig.cache
 C:\fpt\QLwebphim\webxemphimcartoon\webxemphimcartoon\obj\Debug\net8.0\ref\webxemphimcartoon.dll
+C:\fpt\QLwebphim\webxemphimcartoon\webxemphimcartoon\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
