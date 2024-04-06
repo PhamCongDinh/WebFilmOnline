@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "webxemphimcartoon.Controllers.AuthensController",
+    "Method": "Login",
+    "RelativePath": "api/Authens/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "webxemphimcartoon.Models.Taikhoan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "webxemphimcartoon.Controllers.CommentsController",
     "Method": "addcmmt",
     "RelativePath": "api/Comments/addcmmt",

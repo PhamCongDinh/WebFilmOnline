@@ -23,20 +23,34 @@ export class EditfilmsComponent implements OnInit {
       Response => {
         this.tapphimdata = Response.data[0];
         console.log(this.tapphimdata)
+      },
+      error => {
+        localStorage.removeItem('token');
+        this.router.navigate(['/login']);
+        console.log(error)
       }
+      // error => {
+      //   if (error.status === 401) {
+      //     alert("hết phiên làm việc or không có token")
+      //     // Xóa token khỏi Local Storage
+      //     localStorage.removeItem('token');
+      //     // Chuyển hướng người dùng đến trang đăng nhập
+      //     this.router.navigate(['/login']);
+      //   }
+      // }
     )
 
   }
   edit() {
     const data = {
-      "id": 5,
+      "id": this.tapid,
       "thoiHan": this.tapphimdata.tp.thoiHan,
       "tapSo": this.tapphimdata.tp.tapSo,
       "thoiGianChieu": this.tapphimdata.tp.thoiGianChieu,
       "thoiLuong": this.tapphimdata.tp.thoiLuong,
       "urlPhim": this.tapphimdata.tp.urlPhim,
       "urlTrailer": this.tapphimdata.tp.urlTrailer,
-      "idPhim": 4
+      "idPhim": this.tapphimdata.tp.idPhim
     }
     this.had.updatetapphim(data).subscribe(
       Response => {

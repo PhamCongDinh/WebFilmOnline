@@ -8,6 +8,7 @@ import { AdminComponent } from './components/admin/admin.component';
 import { NewtapphimComponent } from './components/newtapphim/newtapphim.component';
 import { HomeadminComponent } from './components/homeadmin/homeadmin.component';
 import { EditfilmsComponent } from './components/editfilms/editfilms.component';
+import { LoginComponent } from './components/login/login.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'phim/:id', component: PhimComponent },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'newphim', component: AdminComponent },
   { path: 'newtapphim', component: NewtapphimComponent },
   { path: 'homeadmin', component: HomeadminComponent },
-  { path: 'edits/:id', component: EditfilmsComponent }
+  { path: 'edits/:id', component: EditfilmsComponent },
+  { path: 'login', component: LoginComponent }
 ];
 
 @NgModule({

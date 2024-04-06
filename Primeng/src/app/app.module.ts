@@ -23,7 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HomeadminComponent } from './components/homeadmin/homeadmin.component';
 import { TableModule } from 'primeng/table';
 import { EditfilmsComponent } from './components/editfilms/editfilms.component';
-
+import { LoginComponent } from './components/login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +35,7 @@ import { EditfilmsComponent } from './components/editfilms/editfilms.component';
     NewtapphimComponent,
     HomeadminComponent,
     EditfilmsComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
