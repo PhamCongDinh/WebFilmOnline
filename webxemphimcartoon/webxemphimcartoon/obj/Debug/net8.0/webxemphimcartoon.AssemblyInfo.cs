@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webxemphimcartoon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4822317068bc8bb56f28820611d41231e9a6a78a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acf6200592b190f7bccf980d512253a25bb44bfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("webxemphimcartoon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webxemphimcartoon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -29,15 +29,7 @@ export class EditfilmsComponent implements OnInit {
         this.router.navigate(['/login']);
         console.log(error)
       }
-      // error => {
-      //   if (error.status === 401) {
-      //     alert("hết phiên làm việc or không có token")
-      //     // Xóa token khỏi Local Storage
-      //     localStorage.removeItem('token');
-      //     // Chuyển hướng người dùng đến trang đăng nhập
-      //     this.router.navigate(['/login']);
-      //   }
-      // }
+
     )
 
   }

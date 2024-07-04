@@ -1,0 +1,16 @@
+<article *ngFor="let film of phimdata" class="col-md-3 col-sm-3 col-xs-6 thumb grid-item">
+    <div class="halim-item">
+        <a class="halim-thumb" [routerLink]="['/filmdetail',film.id]" title=" {{film.tenPhim}}">
+            <figure><img class="img-responsive" src="/assets/images/{{film.anhPhim}}" title="{{film.tenPhim}}"></figure>
+            <span class="episode">Tập {{film.soLuongTap}}/{{film.tongSoTap}} </span>
+            <div class="icon_overlay"></div>
+
+            <div class="halim-post-title-box">
+                <div class="halim-post-title">
+                    <h2 class="entry-title">{{film.tenPhim}}</h2>
+
+                </div>
+            </div>
+        </a>
+    </div>
+</article>

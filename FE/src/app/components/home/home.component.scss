@@ -1,0 +1,17 @@
+/* Xóa màu sắc của p-paginator */
+:host ::ng-deep .ui-paginator {
+    background-color: transparent;
+    border: none;
+}
+
+:host ::ng-deep .ui-paginator .ui-state-default {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}
+
+:host ::ng-deep .ui-paginator .ui-paginator-pages .ui-paginator-page {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}

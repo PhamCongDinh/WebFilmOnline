@@ -130,3 +130,21 @@ button {
 .register p a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+
+
+.p-col {
+    width: 25%;
+    /* Thiết lập chiều rộng của mỗi cột là 25% */
+    float: left;
+    /* Sử dụng float để các cột xếp theo hàng ngang */
+    box-sizing: border-box;
+    /* Đảm bảo kích thước tổng cộng của cột không vượt quá 25% */
+}

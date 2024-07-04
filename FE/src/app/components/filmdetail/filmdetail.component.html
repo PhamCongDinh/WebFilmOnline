@@ -1,0 +1,71 @@
+<app-header></app-header>
+
+<main id="main-contents" class="col-xs-12 col-sm-12 col-md-8">
+    <section id="content">
+        <div class="clearfix wrap-content">
+            <div class="halim-movie-wrapper tpl-2" *ngIf="phimdata">
+                <div class="movie_info col-xs-12">
+                    <div class="movie-poster col-md-4">
+                        <img class="movie-thumb" src="/assets/images/{{phimdata.anhPhim}}" alt="">
+
+                    </div>
+                    <div class="film-poster col-md-8">
+                        <div class="movie-detail">
+                            <h1 class="entry-title">{{phimdata.tenPhim}}</h1>
+                            <p class="released">
+                                <i class="hl-clock"></i>
+                                {{phimdata.thoiLuongPhim}}
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div id="halim_trailer"></div>
+            <div class="collapse in" id="collapseEps">
+                <div class="text-center halim-ajax-list-server">
+                    <div id="halim-ajax-list-server">
+                        <script>var svlists = [];</script>
+                    </div>
+                </div>
+                <div id="halim-list-server" class="list-eps-ajax">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active server-1"><a href="#server-0" aria-controls="server-0"
+                                role="tab" data-toggle="tab"><i class="hl-server"></i> FULL HD</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="halim-server tab-pane active server-1" id="server-0">
+                            <div class="halim-server">
+                                <ul id="listsv-1" class="halim-list-eps">
+                                    <div id="tapphimbyid"></div>
+                                    <li *ngFor="let item of tapphimdata" class="halim-episode halim-episode-1-tap-53">
+                                        <a [routerLink]="['/watchingfilm',item?.tap?.id]" title="53">
+                                            <span class="halim-info-1-tap-53 box-shadow halim-btn" data-post-id="2452"
+                                                data-server="1" data-episode-slug="tap-53" data-position=""
+                                                data-embed="1">{{ item?.tap?.tapSo }}</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="clearfix"></div>
+            <div class="entry-content htmlwrap clearfix">
+                <div class="section-title"><span>Nội dung phim</span></div>
+                <div class="video-item halim-entry-box">
+                    <article id="post-3066" class="item-content ">
+                        <div id="noidung"></div>
+
+                    </article>
+
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+</main>

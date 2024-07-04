@@ -1,0 +1,153 @@
+<!-- <body
+    class="home blog wp-embed-responsive halimmovie-version-5.5.4 halimthemes halimmovies halim-corner-rounded aa-prefix-hhkun-"
+    data-masonry data-nonce="d617764bca"> -->
+<app-header></app-header>
+
+
+<div class="container">
+    <div class="row fullwith-slider">
+    </div>
+</div>
+<div class="container-fluid halim-full-player hidden halim-centered">
+    <div id="halim-full-player" class="container col-md-offset-2s col-md-8"></div>
+</div>
+<div class="container">
+    <div class="row container" id="wrapper">
+        <div class="halim-panel-filter">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-8 hidden-xs">
+                        Hoạt Hình Kungfu </div>
+                    <div class="col-xs-4 text-right">
+                        <a href="javascript:;" id="expand-ajax-filter">Lọc phim <i id="ajax-filter-icon"
+                                class="hl-angle-down"></i></a>
+                    </div>
+                    <div id="alphabet-filter" style="float: right;display: inline-block;margin-right: 25px;"></div>
+                </div>
+            </div>
+            <div id="ajax-filter" class="panel-collapse collapse" aria-expanded="true" role="menu">
+                <div class="ajax"></div>
+            </div>
+        </div>
+        <div class="col-xs-12 carausel-sliderWidget">
+        </div>
+        <main id="main-contents" class="col-xs-12 col-sm-12 col-md-8">
+
+            <div style="width:100%; min-height:130px; position:relative; overflow: hidden;">
+                <div style="background-repeat: no-repeat; background-image: url('../view/images/banner.jpg')">
+                    <div style="max-width:500px">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61557927201402&tabs=timeline&width=500&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            loading="lazy" width="500" height="130" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div style="height:10px; position:relative;"></div>
+            <section id="halim-advanced-widget-3">
+                <h4 class="section-heading">
+                    <a href="https://hhkungfu.info/latest-movie/page/2" title="Mới Nhất">
+                        <span class="h-text">Phim mới nhất</span>
+                    </a>
+                </h4>
+                <div id="halim-advanced-widget-3-ajax-box" class="halim_box">
+
+                    <!--Danh sachs phim-->
+                    <div id="phimmoinhat"></div>
+
+
+
+
+
+
+                </div>
+            </section>
+            <section id="halim-advanced-widget-3">
+                <h4 class="section-heading">
+                    <a href="https://hhkungfu.info/latest-movie/page/2" title="Mới Nhất">
+                        <span class="h-text">Danh Sách Phim</span>
+                    </a>
+                </h4>
+                <div id="halim-advanced-widget-3-ajax-box" class="halim_box">
+
+                    <!--Danh sachs phim-->
+                    <app-filmitem [phimdata]="films"></app-filmitem>
+
+
+
+
+                    <div class="clearfix"></div>
+                    <div>
+                        <p-paginator [rows]="pageSize" [totalRecords]="totalCount"
+                            (onPageChange)="onPageChange($event)"> </p-paginator>
+                    </div>
+                    <a onclick="getallfilms()" class="see-more">Xem tất cả</a>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <div class="clearfix"></div>
+            <section id="halim-schedule-widget" class="halim-schedule-widget" style="position: relative;">
+                <div class="section-bar clearfix">
+                    <div class="section-title">
+                        <a href="https://hhkungfu.info/lich-chieu" title="Lịch chiếu">
+                            <h3 class="section-title"><span>Lịch chiếu</span></h3>
+                        </a>
+                    </div>
+                    <ul class="nav nav-pills nav-justified halim-schedule-block">
+                        <li role="presentation" class="">
+                            <a href="#thu-2" aria-controls="thu-2" role="tab" data-toggle="tab">Thứ 2</a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#thu-3" aria-controls="thu-3" role="tab" data-toggle="tab">Thứ 3</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#thu-4" aria-controls="thu-4" role="tab" data-toggle="tab">Thứ 4</a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#thu-5" aria-controls="thu-5" role="tab" data-toggle="tab">Thứ 5</a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#thu-6" aria-controls="thu-6" role="tab" data-toggle="tab">Thứ 6</a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#thu-7" aria-controls="thu-7" role="tab" data-toggle="tab">Thứ 7</a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#chunhat" aria-controls="thu-1" role="tab" data-toggle="tab">Chủ Nhật</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="halim_box" id="ajax-schedule-widget">
+                    <div class="tab-content">
+
+                        <div id="phimbydate"></div>
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </main>
+        <aside id="sidebar" class="col-xs-12 col-sm-12 col-md-4">
+            <div id="halim_popular_tv_series-widget-3" class="widget halim_popular_tv_series-widget">
+                <div class="section-bar clearfix">
+                    <div class="section-title">
+                        <span>Xem nhiều</span>
+                    </div>
+                </div>
+                <section class="tab-content">
+                    <div role="tabpanel" class="tab-pane active halim-ajax-popular-post">
+                        <div class="popular-post" id="phimhay">
+
+
+                        </div>
+                    </div>
+                </section>
+                <div class="clearfix"></div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<!-- </body> -->

@@ -12,7 +12,7 @@ namespace webxemphimcartoon.Controllers.Admin
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class HomeAdminsController : ControllerBase
     {
         WebphimonlineContext DB = new WebphimonlineContext();

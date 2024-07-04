@@ -1,0 +1,201 @@
+/*!
+ Theme Name:   HaLimMovie Child (hhkungfu)
+ Theme URI:    http://halimthemes.com
+ Description:  HaLimMovie - Premium Wordpress Movie Theme
+ Author:       HoangHa
+ Author URI:   http://halimthemes.com
+ Template:     halimmovies
+*/
+#header {
+    background: #000;
+}
+
+#header .site-title {
+    height: 100px;
+}
+
+.halim-search-form {
+    margin-top: 9px;
+}
+
+#headwrap .col-md-4 {
+    margin-top: 9px;
+}
+
+#headwrap {
+    margin: 10px 0 0 10px;
+}
+
+#footer .footer-logo img {
+    display: none;
+}
+
+#footer .about {
+    background: none;
+    padding: 0px;
+    padding-top: 10px;
+}
+
+#footer {
+    background: none;
+    margin-top: 50px;
+    border-top: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
+#get-bookmark {
+    margin-right: 30px;
+}
+
+.halim-search-form .form-control {
+    border-color: rgba(62, 122, 173, 0);
+    color: #fff;
+}
+
+.halim-panel-filter .panel-heading {
+    display: none;
+}
+
+@media only screen and (max-width: 778px) {
+    .wrap-slider {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 310px) {
+    .grid-item img {
+        height: 198px;
+        max-height: 198px;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    .grid-item img {
+        height: 226px;
+        max-height: 226px;
+    }
+}
+
+@media only screen and (min-width: 365px) {
+    .grid-item img {
+        height: 237px;
+        max-height: 237px;
+    }
+}
+
+@media only screen and (min-width: 401px) {
+    .grid-item img {
+        height: 262px;
+        max-height: 262px;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+    .grid-item img {
+        height: 272px;
+        max-height: 272px;
+    }
+}
+
+@media only screen and (min-width: 758px) {
+    .grid-item img {
+        height: 246px;
+        max-height: 246px;
+    }
+}
+
+@media only screen and (min-width: 1014px) {
+    .grid-item img {
+        height: 209px;
+        max-height: 209px;
+    }
+
+    .owl-item .grid-item img {
+        height: 212px;
+        max-height: 212px;
+    }
+}
+
+@media only screen and (min-width: 1356px) {
+    .grid-item img {
+        height: 278px;
+        max-height: 278px;
+    }
+
+    .owl-item .grid-item img {
+        height: 260px;
+        max-height: 260px;
+    }
+}
+
+.button-watch {
+    display: none;
+}
+
+.grid-item:hover img,
+#sidebar .item:hover img,
+.popular-post .item:hover img {
+    transform: scale(1.1);
+}
+
+.grid-item .icon_overlay,
+.slider-thumb .icon_overlay {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.halim-movie-wrapper.tpl-2 .ratings_wrapper {
+    display: none;
+}
+
+.halim-movie-wrapper.tpl-2 .quick-eps {
+    display: none;
+}
+
+.halim-movie-wrapper.tpl-2 .watch-movie {
+    left: 50%;
+    margin-left: -30%;
+}
+
+.video-item .item-content {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    #halim-list-server ul li span {
+        font-size: 12px;
+    }
+
+    .the_tag_list a {
+        padding: 16px 13px;
+        margin: 4px 4px;
+        font-size: 16px;
+    }
+}
+
+.popular-post .viewsCount {
+    display: none;
+}
+
+.halim-schedule-block>li+li {
+    margin-left: 0 !important;
+}
+
+.halim-post-title .original_title,
+.popular-post .original_title {
+    display: none;
+}
+
+.halim-movie-wrapper.tpl-2 .movie-detail p.org_title {
+    display: none;
+}
+
+.ratings_wrapper {
+    display: none;
+}
+
+#halim-ajax-list-server {
+    display: none;
+}
